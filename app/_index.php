@@ -7,7 +7,7 @@
   <title>Neri Esparza</title>
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
   <!-- Fonts Awsome -->
   <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
   <!-- favico -->
@@ -29,7 +29,7 @@
     <div class="masthead-brand ne-title">
       <div class="ne-logo"><a href="index.php">NE</a></div>
     </div>
-      <nav> 
+      <nav>
         <ul class="nav masthead-nav">
           <li class="active"><a href="index.html">about</a></li>
           <li class="ne-go-to-work"><a href="#">work</a></li>
@@ -43,22 +43,22 @@
 
     <div class="cover-container">
       <div class="inner cover">
-        <h1 class="font-so">Neri Esparza</h1> 
+        <h1 class="font-so">Neri Esparza</h1>
         <p class="lead">Based in NYC with work experience in web agency I was fortunate to work in different countries as Mexico, France and now USA. I have a good understand of UI/UX design and knowledge prototyping, animations CSS3/jQuery, utilization of SASS/Compass, test cross-browser and mobile optimization.</p>
       </div>
     <div class="ne-go-work ne-go-to-work"><a href="#"><i class="fa fa-angle-down fa-5x"></i></a></div>
     </div>
-    
+
   </div>
 
 </div> <!-- End Site-wrapper -->
 
     <div class="ne-work">
-      
+
       <div id="ne-vs-container" class="ne-vs-container">
 
         <div class="ne-vs-header">
-            <h1 class="font-so">Work</h1> 
+            <h1 class="font-so">Work</h1>
             <ul class="ne-vs-nav">
               <li><a href="#section-1">Play Designers</a></li>
               <li><a href="#section-2">Pure</a></li>
@@ -111,7 +111,7 @@
                 <div class="col-md-5 ne-description">
                   <h3>
                     <a href="http://2015.pureinsurance.com/index" class="font-so" target="_blank">Pure Insurance 2015 Report</a>
-                  </h3>      
+                  </h3>
                   <p>Front End development in HTML, CSS, Bootstrap, SASS, Javascript/jQuery.</p>
                   <p><i class="fa fa-anchor"></i><a href="http://2015.pureinsurance.com/index" target="_blank" class="font-so">Web Site</a></p>
                   <p><i><small>note: all D3 charts was developed by other member of the team.</small></i></p>
@@ -133,7 +133,7 @@
                 <div class="col-md-5 ne-description">
                   <h3>
                     <a href="http://www.hollywood-burger.com/" class="font-so" target="_blank">Hollywood Burger</a>
-                  </h3>      
+                  </h3>
                   <p>UX Design and Front End development in HTML, CSS, Bootstrap, SASS, Javascript/jQuery.</p>
                   <p><i class="fa fa-anchor"></i><a href="http://www.hollywood-burger.com/" target="_blank" class="font-so">Web Site</a></p>
                 </div>
@@ -154,7 +154,7 @@
                 <div class="col-md-5 ne-description">
                   <h3>
                     <a href="http://www.algodonwineestates.com/" class="font-so" target="_blank">Algodon Wine Estates</a>
-                  </h3>      
+                  </h3>
                   <p>Front End development in HTML, CSS, Bootstrap, SASS, Javascript/jQuery.</p>
                   <p><i class="fa fa-anchor"></i><a href="http://www.algodonwineestates.com/" target="_blank" class="font-so">Web Site</a></p>
                 </div>
@@ -201,7 +201,7 @@
 
                     <div class="col-md-3 ne-description">
                       <h3><a href="macys.html" class="font-so" target="_blank">Macy's</a></h3>
-                      <p>Mockup responsive for mobile in HTML and CSS.</p>  
+                      <p>Mockup responsive for mobile in HTML and CSS.</p>
                       <p>
                         <i class="fa fa-anchor"></i> <a href="macys.html" class="font-so" target="_blank">Web Site</a></p>
                     </div>
@@ -210,7 +210,7 @@
                 </div>
             </section>
             <!-- end Macys  -->
-            
+
             <!-- Marconi -->
             <section id="section-7" class="row ne-work-details">
               <div class="ne-vs-content">
@@ -222,7 +222,7 @@
                 </div>
                 <div class="col-md-5 ne-description">
                   <h3><a href="http://marconiyoungscholars.org/" class="font-so" target="_blank">Marconi Society Young Scholars</a></h3>
-                  <p>Marconi Young Scholars are individuals who have, at an early age, already demonstrated exceptional engineering or scientific research</p>        
+                  <p>Marconi Young Scholars are individuals who have, at an early age, already demonstrated exceptional engineering or scientific research</p>
                   <p>Web site in wordpress with my own template made with bootstrap I used HTML, CSS, PHP and some JQuery.</p>
                   <p><i class="fa fa-anchor"></i> <a href="http://marconiyoungscholars.org/" class="font-so" target="_blank">Web Site</a></p>
                 </div>
@@ -242,7 +242,7 @@
                 </div>
                 <div class="col-md-5 ne-description">
                   <h3><a href="http://www.kameleoon.com/" target="_blank" class="font-so">Kameleoon Web Site</a></h3>
-                  <p>Kameleoon A/B Testing company who offers the simple way to test changes in the web page against the current design and determine which ones produce positive results.</p>        
+                  <p>Kameleoon A/B Testing company who offers the simple way to test changes in the web page against the current design and determine which ones produce positive results.</p>
                   <p>Front End Development with HTML, CSS and jQuery from the PSD design.</p>
                   <p>
                     <i class="fa fa-anchor"></i> <a href="http://www.kameleoon.com/" target="_blank" class="font-so">Web Site</a></p>
@@ -251,7 +251,7 @@
               </div>
             </section>
             <!-- End Kameleoon Web Site -->
-            
+
             <!-- Kameleoon Back End -->
             <section id="section-9" class="row ne-work-details">
               <div class="ne-vs-content">
@@ -264,7 +264,7 @@
                 <div class="col-md-5 ne-description">
                   <h3>
                     <a href="https://back-office.kameleoon.com/access/login/" class="font-so" target="_blank">Kameleoon Back End</a>
-                  </h3>      
+                  </h3>
                   <p>Front End development in HTML, CSS, JQuery and the framework Bootstrap.</p>
                   <p><i class="fa fa-anchor"></i><a href="https://back-office.kameleoon.com/access/login" target="_blank" class="font-so">Web Site</a></p>
                 </div>
@@ -281,7 +281,7 @@
                   <img src="img/iMacKamBlog_1.png" alt="" class="img-responsive" /><br>
                 </div>
                 <div class="col-md-5 ne-description">
-                  <h3><a href="http://blog.kameleoon.com/" class="font-so" target="_blank">Kameleoon Blog</a></h3>      
+                  <h3><a href="http://blog.kameleoon.com/" class="font-so" target="_blank">Kameleoon Blog</a></h3>
                   <p>WordPress blog website and re-skinning premium theme.</p>
                   <p><i class="fa fa-anchor"></i> <a href="http://blog.kameleoon.com/" target="_blank" class="font-so">Web Site</a></p>
                 </div>
@@ -300,7 +300,7 @@
                   <img src="img/iMacSkodaHP_3.png" alt="" class="img-responsive" />
                 </div>
                 <div class="col-md-5 ne-description">
-                  <h3><a href="http://www.skoda.fr/" class="font-so" target="_blank">Skoda Web Site</a></h3>      
+                  <h3><a href="http://www.skoda.fr/" class="font-so" target="_blank">Skoda Web Site</a></h3>
                   <p>Front End development in an environment of PHP, MVC Symfony Framework and Tortoise SVN for Skoda’s web site.</p>
                   <p><i class="fa fa-anchor"></i> <a href="http://www.skoda.fr/" target="_blank" class="font-so">Web Site</a></p>
                 </div>
@@ -308,7 +308,7 @@
               </div>
             </section>
             <!-- End Skoda Web Site -->
-            
+
             <!-- Les Selections Skoda -->
             <section id="section-12" class="row ne-work-details">
               <div class="ne-vs-content">
@@ -319,7 +319,7 @@
                   <img src="img/iMacLssSkoda_3.png" alt="" class="img-responsive" />
                 </div>
                 <div class="col-md-5 ne-description">
-                  <h3><a href="http://www.lesselectionsskoda.fr/" target="_blank" class="font-so">Les Selections Skoda</a></h3>      
+                  <h3><a href="http://www.lesselectionsskoda.fr/" target="_blank" class="font-so">Les Selections Skoda</a></h3>
                   <p>Front End development in an environment of PHP, MVC Symfony Framework and Tortoise SVN for Skoda’s web site.</p>
                   <p><i class="fa fa-anchor"></i> <a href="http://www.lesselectionsskoda.fr/" target="_blank" class="font-so">Web Site</a></p>
                 </div>
@@ -338,7 +338,7 @@
                   <img src="img/iMacSkodaMag_3.png" alt="" class="img-responsive" />
                 </div>
                 <div class="col-md-5 ne-description">
-                  <h3><a href="http://www.skodamag.fr/" target="_blank" class="font-so">Skoda Mag</a></h3>      
+                  <h3><a href="http://www.skodamag.fr/" target="_blank" class="font-so">Skoda Mag</a></h3>
                   <p>Skoda Mag is a responsive wordpress web site made with a custom template.</p>
                   <p><i class="fa fa-anchor"></i> <a href="http://www.skodamag.fr/" class="font-so" target="_blank">Web Site</a></p>
                 </div>
@@ -346,22 +346,22 @@
               </div>
             </section>
             <!-- End Skoda Mag -->
-        
-        </div> 
+
+        </div>
       </div><!-- END ne-vs-container-->
 
       <!-- Accordion for mobile -->
-      <div class="ne-accordion"> 
+      <div class="ne-accordion">
       </div>
       <!-- End Accordion -->
 
     </div><!-- End Work-->
     <!-- skills  -->
-    
+
     <div class="ne-skills">
     <div class="container">
-      
-    <h1 class="font-so">Skills</h1> 
+
+    <h1 class="font-so">Skills</h1>
     <div class="row">
       <div class="col-md-6">
         <div class="row">
@@ -397,10 +397,10 @@
     <div ><a href="#" class="ne-top"><i class="fa fa-angle-up fa-4x"></i></a></div>
     <!-- Footer -->
     <footer>
-      <div class="inner">       
+      <div class="inner">
         <a href="https://www.linkedin.com/pub/neri-marisol-esparza-rivera/39/455/40a" target="_blank">linkedin</a> / <a href="http://wnotw.co/5756" target="_blank" title="working not working">wnw</a> / <a href="https://github.com/nerisina" target="_blank">github</a> / <a href="http://instagram.com/nerisina/" target="_blank">instagram</a> / <a href="https://twitter.com/nerisina" target="_blank">twitter</a> / <a href=""></a><a href="mailto:neri.esparza@gmail.com">contact</a>
       </div>
-      <p class="ne-copy">© Copyright &nbsp; <?php echo date('Y'); ?></p>   
+      <p class="ne-copy">© Copyright &nbsp; <?php echo date('Y'); ?></p>
     </footer>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -422,56 +422,7 @@
 
   </script>
   <!-- Work -->
-  <script type="text/javascript">
-    // Go to work
-    $( ".ne-go-to-work a" ).click(function() {
-      $('html, body').animate({
-        scrollTop: $(".ne-work").offset().top
-      }, 1000);
-    });
-
-    //Go to Skills
-    $( ".ne-go-to-skills a" ).click(function() {
-      $('html, body').animate({
-        scrollTop: $(".ne-skills").offset().top
-      }, 1000);
-    });
-
-    // Tabs Work
-    $(function() {
-      $( "#ne-vs-container" ).tabs();
-    });
-
-    // Accordion for mobile
-    $(function() {
-      $( ".accordion" ).accordion();
-    });
-    // Go to top
-    // browser window scroll (in pixels) after which the "back to top" link is shown
-    var offset = 800,
-      //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
-      offset_opacity = 15000,
-      //duration of the top scrolling animation (in ms)
-      scroll_top_duration = 700,
-      //grab the "back to top" link
-      $back_to_top = $('.ne-top');
-
-    //hide or show the "back to top" link
-    $(window).scroll(function(){
-      ( $(this).scrollTop() > offset ) ? $back_to_top.addClass('ne-is-visible') : $back_to_top.removeClass('ne-is-visible ne-fade-out');
-      if( $(this).scrollTop() > offset_opacity ) { 
-        $back_to_top.addClass('ne-fade-out');
-      }
-    });
-
-    //smooth scroll to top
-    $back_to_top.on('click', function(event){
-      event.preventDefault();
-      $('body,html').animate({
-        scrollTop: $(".site-wrapper").offset().top
-        }, scroll_top_duration
-      );
-    });
+  <script type="text/javascript" src="js/script.js">
 
   </script>
 </body>
