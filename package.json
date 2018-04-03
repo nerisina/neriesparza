@@ -9,6 +9,7 @@
   "author": "neri esparza",
   "license": "ISC",
   "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
     "browser-sync": "^2.23.6",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
