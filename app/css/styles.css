@@ -60,10 +60,13 @@ h1 {
   width: 80%; }
 
 .ne-vs-wrappe section {
-  height: 100vh; }
+  height: 100vh;
+  overflow: auto; }
 
-.ne-pimg img {
-  width: 100%; }
+.ne-pimg {
+  text-align: left; }
+  .ne-pimg img {
+    width: 80%; }
 
 .ne-go-work {
   opacity: 0.5;
@@ -72,7 +75,7 @@ h1 {
 .ne-go-work a {
   color: #f57786; }
   .ne-go-work a:hover {
-    color: #C2C908; }
+    color: #0275d8; }
 
 .site-wrapper {
   display: table;
@@ -111,6 +114,10 @@ h1 {
   -webkit-backface-visibility: hidden; }
   .ne-vs-header h1 {
     margin-bottom: 3rem; }
+  .ne-vs-header a {
+    color: #f57786; }
+    .ne-vs-header a:hover {
+      color: #0275d8; }
 
 .ne-vs-nav {
   position: relative;

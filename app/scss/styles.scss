@@ -59,6 +59,7 @@ h1 {
 .nav li {
   a {
     color: #C2C908;
+
     &:focus,
     &:hover {
       background: none;
@@ -80,12 +81,14 @@ h1 {
 .ne-vs-wrappe {
   section {
     height: 100vh;
+    overflow: auto;
   }
 }
 
 .ne-pimg {
+  text-align: left;
   img {
-width: 100%;
+    width: 80%;
   }
 }
 
@@ -97,8 +100,9 @@ width: 100%;
 .ne-go-work {
   a {
     color: #f57786;
+
     &:hover {
-      color: #C2C908;
+      color: #0275d8;
     }
   }
 }
@@ -136,9 +140,7 @@ width: 100%;
     }
   }
 }
-
 /* Work */
-
 .ne-work {
   padding-bottom: 100px;
 }
@@ -148,8 +150,15 @@ width: 100%;
   color: #505050;
   text-align: center;
   -webkit-backface-visibility: hidden;
-  h1{
+
+  h1 {
     margin-bottom: 3rem;
+  }
+  a{
+    color:#f57786;
+    &:hover{
+    color:  #0275d8;
+    }
   }
 }
 
@@ -210,23 +219,24 @@ width: 100%;
   color: #89867e;
   font-weight: lighter;
   text-align: left;
+
   h3 {
     font-family: 'Abril Fatface', cursive;
     margin-bottom: 18px;
   }
+
   a {
     color: #f57786;
     -webkit-transition: border-color 0.3s, color 0.3s;
     transition: border-color 0.3s, color 0.3s;
+
     &:hover {
       text-decoration: none;
       color: #C2C908;
     }
   }
 }
-
 /*.ne-description p a{ font-size: .65em; }*/
-
 small {
   font-size: 0.65em;
 }
@@ -240,9 +250,7 @@ small {
 .fa-child:before {
   margin-right: 5px;
 }
-
 /* Bottom Top */
-
 .ne-top {
   display: inline-block;
   position: fixed;
@@ -286,9 +294,7 @@ small {
   background-color: #e86256;
   opacity: 1;
 }
-
 /* Skills */
-
 .ne-skills {
   padding: 50px 0;
   background: #232325;
@@ -309,9 +315,7 @@ small {
   color: #f57786;
   opacity: 0.6;
 }
-
 /* Footer */
-
 footer {
   background: #fff;
 }
@@ -341,11 +345,8 @@ footer a:hover {
   color: #232325;
   font-size: 10px;
 }
-
 /* Media queries */
-
 @media (min-width: 992px) {}
-
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
@@ -359,14 +360,15 @@ footer a:hover {
     position: absolute;
     top: 0;
   }
+
   .site-wrapper-inner {
     vertical-align: middle;
   }
+
   .cover-container,
   .mastfoot,
   .masthead {}
 }
-
 @media screen and (max-width: 72.875em) {
   .ne-vs-header,
   .ne-vs-wrapper {
@@ -381,7 +383,6 @@ footer a:hover {
     width: 160px;
   }
 }
-
 @media screen and (max-width: 45.25em) {
   .ne-vs-content h2 {
     margin: 0 0 1em;
@@ -395,12 +396,12 @@ footer a:hover {
     width: auto;
     font-size: 70%;
   }
+
   .ne-vs-wrapper > section {
     background-position: 0 28em;
     background-size: 100%;
   }
 }
-
 @media (min-width: 300px) and (max-width: 768px) {
   .site-wrapper {
     display: inherit;
