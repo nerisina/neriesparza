@@ -19,6 +19,7 @@ header.masthead.clearfix {
   width: 100%;
   padding: 3% 10%;
 }
+
 .cover {
   padding: 0 20px;
 
@@ -28,383 +29,380 @@ header.masthead.clearfix {
   }
 }
 
-  .ne-title, h1 {
-    font-family: 'Abril Fatface', cursive;
-    font-size: 5rem;
-    letter-spacing: 5px;
-    text-align: left;
-  }
+.ne-title,
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 5rem;
+  letter-spacing: 5px;
+  text-align: left;
+}
 
-  .ne-logo img {
-    vertical-align: bottom;
-    margin-right: 10px;
-  }
+.ne-logo img {
+  vertical-align: bottom;
+  margin-right: 10px;
+}
 
-  .ne-logo a {
-    color: #f57786;
-    font-family: 'Lato', sans-serif;
-    font-size: 2em;
-    font-weight: lighter;
-&:hover {
+.ne-work-container {
+  padding-top: 40px;
+}
+
+.ne-back {
+  margin-top: 40px;
+  display: inline-block;
+  width: 100%;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.nav li {
+  a {
     color: #C2C908;
-    text-decoration: none;
-  }
-
-  .ne-work-container {
-    padding-top: 40px;
-  }
-
-  .ne-back {
-    margin-top: 40px;
-    display: inline-block;
-    width: 100%;
-  }
-  .navbar-brand {
-    padding: 0;
-  }
-
-  .nav li {
-    a {
-      color: #C2C908;
-      &:focus,
-      &:hover {
-        background: none;
-        color: #f57786;
-      }
-    }
-  }
-
-  .cover p{
-    font-weight: 300;
-    font-size: 1em;
-    padding: 10px 0;
-    margin: 0 auto;
-    text-align: center;
-    line-height: 2.5;
-    width: 80%;
-  }
-
-  .ne-go-work {
-    opacity: 0.5;
-    cursor: pointer;
-  }
-
-  .ne-go-work {
-    a {
-    color: #f57786;
+    &:focus,
     &:hover {
-    color: #C2C908;
+      background: none;
+      color: #f57786;
     }
   }
 }
 
-  .site-wrapper {
-    display: table;
-    width: 100%;
-    height: 100%;
-    /* For at least Firefox */
-    min-height: 100%;
-  }
+.cover p {
+  font-weight: 300;
+  font-size: 1em;
+  padding: 10px 0;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2.5;
+  width: 80%;
+}
 
-  .site-wrapper-inner {
-    display: table-cell;
-    vertical-align: top;
-    background: rgba(255, 82, 82, 0.25);
+.ne-vs-wrappe {
+  section {
+    height: 100vh;
   }
+}
 
-  .cover-container {
-    margin-right: auto;
-    margin-left: auto;
-    width: 80%;
-    line-height: 12px;
+.ne-pimg {
+  img {
+width: 100%;
+  }
+}
+
+.ne-go-work {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.ne-go-work {
+  a {
+    color: #f57786;
+    &:hover {
+      color: #C2C908;
+    }
+  }
+}
+
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  /* For at least Firefox */
+  min-height: 100%;
+}
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+  background: rgba(255, 82, 82, 0.25);
+}
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  line-height: 12px;
+}
+
+.masthead-nav {
+  li {
+    display: inline-block;
+
+    a {
+      font-size: 1.5em;
+      font-weight: bold;
+      border-bottom: 2px solid transparent;
+      color: #fff;
+    }
+  }
+}
+
+/* Work */
+
+.ne-work {
+  padding-bottom: 100px;
+}
+
+.ne-vs-header {
+  padding: 2em;
+  color: #505050;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  h1{
+    margin-bottom: 3rem;
+  }
+}
+
+.ne-vs-nav {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.ne-vs-nav li {
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+
+  li {
+    a {
+      position: relative;
+      display: inline-block;
+      margin: 0 10px;
+      padding: 5px 0;
+      outline: none;
+      border-top: 1px solid #f57786;
+      border-bottom: 1px solid #f57786;
+      color: #777;
+      text-decoration: none;
+      font-size: 1.3em;
+      font-weight: lighter;
+      -webkit-transition: border-color 0.3s, color 0.3s;
+      transition: border-color 0.3s, color 0.3s;
+
+      &:focus,
+      &:hover {
+        border-color: #C2C908;
+      }
+    }
+  }
+}
+
+.ne-vs-wrapper {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  min-height: 100%;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.ne-vs-wrapper > section {
+  background: rgba(0, 0, 0, 0.03);
+  margin: 30px;
+  padding: 40px;
+}
+
+.ne-description {
+  padding-top: 5rem;
+  color: #89867e;
+  font-weight: lighter;
+  text-align: left;
+  h3 {
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 18px;
+  }
+  a {
+    color: #f57786;
+    -webkit-transition: border-color 0.3s, color 0.3s;
+    transition: border-color 0.3s, color 0.3s;
+    &:hover {
+      text-decoration: none;
+      color: #C2C908;
+    }
+  }
+}
+
+/*.ne-description p a{ font-size: .65em; }*/
+
+small {
+  font-size: 0.65em;
+}
+
+.fa-child:before,
+.ne-description .fa-anchor:before {
+  font-size: 0.65em;
+  text-align: center;
+}
+
+.fa-child:before {
+  margin-right: 5px;
+}
+
+/* Bottom Top */
+
+.ne-top {
+  display: inline-block;
+  position: fixed;
+  bottom: 13px;
+  right: 40px;
+  color: #777;
+  /* image replacement properties */
+  overflow: hidden;
+  white-space: nowrap;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  transition: opacity 0.3s 0s, visibility 0s 0.3s;
+}
+
+.ne-top:hover {
+  color: #C2C908;
+}
+
+.ne-top.ne-fade-out,
+.ne-top.ne-is-visible,
+.no-touch .ne-top:hover {
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+  transition: opacity 0.3s 0s, visibility 0s 0s;
+}
+
+.ne-top.ne-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+
+.ne-top.ne-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: 0.7;
+}
+
+.no-touch .ne-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+
+/* Skills */
+
+.ne-skills {
+  padding: 50px 0;
+  background: #232325;
+}
+
+.ne-skills .container {
+  width: 100%;
+  height: 100%;
+  color: #8e898e;
+}
+
+.ne-skills h1 {
+  color: #fff;
+  margin-top: 0;
+}
+
+.ne-skills h4 {
+  color: #f57786;
+  opacity: 0.6;
+}
+
+/* Footer */
+
+footer {
+  background: #fff;
+}
+
+.masthead-nav > li > a,
+footer a {
+  font-weight: lighter !important;
+  color: #f57786 !important;
+  -webkit-transition: border-color 0.3s, color 0.3s;
+  transition: border-color 0.3s, color 0.3s;
+}
+
+.masthead-nav > li > a:focus,
+.masthead-nav > li > a:hover,
+footer a:focus,
+footer a:hover {
+  color: #C2C908 !important;
+  text-decoration: none;
+}
+
+.inner {
+  padding: 30px 30px 0;
+  color: #ff5252;
+}
+
+.ne-copy {
+  color: #232325;
+  font-size: 10px;
+}
+
+/* Media queries */
+
+@media (min-width: 992px) {}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
   }
 
   .masthead-nav {
-    li {
-      display: inline-block;
-
-      a {
-        font-size: 1.5em;
-        font-weight: bold;
-        border-bottom: 2px solid transparent;
-        color: #fff;
-      }
-    }
+    float: right;
   }
 
-  /* Work */
-  .ne-work {
-    padding-bottom: 100px;
+  .masthead {
+    position: absolute;
+    top: 0;
+  }
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  .cover-container,
+  .mastfoot,
+  .masthead {}
+}
+
+@media screen and (max-width: 72.875em) {
+  .ne-vs-header,
+  .ne-vs-wrapper {
+    font-size: 80%;
   }
 
-  .ne-vs-header {
-    margin: 0 auto;
-    padding: 2em;
-    width: 95%;
-    color: #505050;
-    text-align: center;
-    -webkit-backface-visibility: hidden;
+  .ne-vs-content h2 {
+    font-size: 1.8em;
   }
 
-  .ne-vs-nav {
-    position: relative;
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    list-style: none;
+  .ne-vs-nav li a {
+    width: 160px;
   }
-  .ne-vs-nav li {
-    margin-bottom: 10px;
-    text-align: center;
-    text-decoration: none;
+}
 
-    li {
-      a {
-        position: relative;
-        display: inline-block;
-        margin: 0 10px;
-        padding: 5px 0;
-        outline: none;
-        border-top: 1px solid #f57786;
-        border-bottom: 1px solid #f57786;
-        color: #777;
-        text-decoration: none;
-        font-size: 1.3em;
-        font-weight: lighter;
-        -webkit-transition: border-color 0.3s, color 0.3s;
-        transition: border-color 0.3s, color 0.3s;
-
-        &:focus,
-        &:hover {
-          border-color: #C2C908;
-        }
-      }
-    }
+@media screen and (max-width: 45.25em) {
+  .ne-vs-content h2 {
+    margin: 0 0 1em;
   }
-.ne-vs-wrapper {
-    position: relative;
-    display: block;
-    overflow: hidden;
-    min-height: 100%;
-    width: 100%;
-    padding-bottom: 100px;
+
+  .ne-vs-wrapper {
+    font-size: 80%;
+  }
+
+  .ne-vs-triplelayout .ne-vs-nav li a {
+    width: auto;
+    font-size: 70%;
   }
   .ne-vs-wrapper > section {
-    background: rgba(0,0,0,0.03);
-    margin: 30px;
-    padding: 40px;
+    background-position: 0 28em;
+    background-size: 100%;
   }
-  /* inner content */
-  .ne-vs-content {
-    position: relative;
-    margin: auto;
-    padding: 1em 0;
-    width: 95%;
-    text-align: left;
-    font-size: 1.5em;
-  }
-  .ne-vs-content h2 {
-    position: relative;
-    margin: 30px 0 40px;
-    color: #893027;
-    font-weight: 700;
-    font-size: 3em;
-  }
-  .ne-vs-content p {
-    margin: 0 0 20px;
-    padding: 0;
-  }
-  .ne-description {
-    padding-top: 5%;
-    color: #89867e;
-    font-weight: lighter;
-  }
+}
 
-  .ne-description a {
-    color: #f57786;
-    -webkit-transition: border-color 0.3s, color 0.3s;
-    transition: border-color 0.3s, color 0.3s;
+@media (min-width: 300px) and (max-width: 768px) {
+  .site-wrapper {
+    display: inherit;
   }
-
-  .ne-description a:hover {
-    text-decoration: none;
-    color: #C2C908;
-  }
-  /*.ne-description p a{ font-size: .65em; }*/
-  small {
-    font-size: 0.65em;
-  }
-
-  .fa-child:before,
-  .ne-description .fa-anchor:before {
-    font-size: 0.65em;
-    text-align: center;
-  }
-
-  .fa-child:before {
-    margin-right: 5px;
-  }
-  /* Bottom Top */
-  .ne-top {
-    display: inline-block;
-    position: fixed;
-    bottom: 13px;
-    right: 40px;
-    color: #777;
-    /* image replacement properties */
-    overflow: hidden;
-    white-space: nowrap;
-    visibility: hidden;
-    opacity: 0;
-    -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
-    -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
-    transition: opacity 0.3s 0s, visibility 0s 0.3s;
-  }
-
-  .ne-top:hover {
-    color: #C2C908;
-  }
-
-  .ne-top.ne-fade-out,
-  .ne-top.ne-is-visible,
-  .no-touch .ne-top:hover {
-    -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
-    -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
-    transition: opacity 0.3s 0s, visibility 0s 0s;
-  }
-
-  .ne-top.ne-is-visible {
-    /* the button becomes visible */
-    visibility: visible;
-    opacity: 1;
-  }
-
-  .ne-top.ne-fade-out {
-    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
-    opacity: 0.7;
-  }
-
-  .no-touch .ne-top:hover {
-    background-color: #e86256;
-    opacity: 1;
-  }
-  /* Skills */
-  .ne-skills {
-    padding: 50px 0;
-    background: #232325;
-  }
-
-  .ne-skills .container {
-    width: 100%;
-    height: 100%;
-    color: #8e898e;
-  }
-
-  .ne-skills h1 {
-    color: #fff;
-    margin-top: 0;
-  }
-
-  .ne-skills h4 {
-    color: #f57786;
-    opacity: 0.6;
-  }
-  /* Footer */
-  footer {
-    background: #fff;
-  }
-
-  .masthead-nav > li > a,
-  footer a {
-    font-weight: lighter !important;
-    color: #f57786 !important;
-    -webkit-transition: border-color 0.3s, color 0.3s;
-    transition: border-color 0.3s, color 0.3s;
-  }
-
-  .masthead-nav > li > a:focus,
-  .masthead-nav > li > a:hover,
-  footer a:focus,
-  footer a:hover {
-    color: #C2C908 !important;
-    text-decoration: none;
-  }
-
-  .inner {
-    padding: 30px 30px 0;
-    color: #ff5252;
-  }
-
-  .ne-copy {
-    color: #232325;
-    font-size: 10px;
-  }
-  /* Media queries */
-
-
-  @media (min-width: 992px) {
-
-
-  }
-  @media (min-width: 768px) {
-    .masthead-brand {
-      float: left;
-    }
-
-    .masthead-nav {
-      float: right;
-    }
-
-    .masthead {
-      position: absolute;
-      top: 0;
-    }
-    .site-wrapper-inner {
-      vertical-align: middle;
-    }
-    .cover-container,
-    .mastfoot,
-    .masthead {
-    }
-  }
-  @media screen and (max-width: 72.875em) {
-    .ne-vs-header,
-    .ne-vs-wrapper {
-      font-size: 80%;
-    }
-
-    .ne-vs-content {
-      width: 85%;
-    }
-
-    .ne-vs-content h2 {
-      font-size: 1.8em;
-    }
-
-    .ne-vs-nav li a {
-      width: 160px;
-    }
-  }
-  @media screen and (max-width: 45.25em) {
-    .ne-vs-content h2 {
-      margin: 0 0 1em;
-    }
-
-    .ne-vs-wrapper {
-      font-size: 80%;
-    }
-
-    .ne-vs-triplelayout .ne-vs-nav li a {
-      width: auto;
-      font-size: 70%;
-    }
-    .ne-vs-wrapper > section {
-      background-position: 0 28em;
-      background-size: 100%;
-    }
-  }
-  @media (min-width: 300px) and (max-width: 768px) {
-    .site-wrapper {
-      display: inherit;
-    }
-  }
+}
