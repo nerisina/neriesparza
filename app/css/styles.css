@@ -45,7 +45,7 @@ h1 {
   padding: 0; }
 
 .nav li a {
-  color: #C2C908; }
+  color: #0275d8; }
   .nav li a:focus, .nav li a:hover {
     background: none;
     color: #f57786; }
@@ -66,7 +66,9 @@ h1 {
 .ne-pimg {
   text-align: left; }
   .ne-pimg img {
-    width: 80%; }
+    width: 80%;
+    box-shadow: 0px 0px 2px 1px #aaa;
+    margin: 40px 10px; }
 
 .ne-go-work {
   opacity: 0.5;
@@ -145,7 +147,7 @@ h1 {
     -webkit-transition: border-color 0.3s, color 0.3s;
     transition: border-color 0.3s, color 0.3s; }
     .ne-vs-nav li li a:focus, .ne-vs-nav li li a:hover {
-      border-color: #C2C908; }
+      border-color: #0275d8; }
 
 .ne-vs-wrapper {
   position: relative;
@@ -174,7 +176,7 @@ h1 {
     transition: border-color 0.3s, color 0.3s; }
     .ne-description a:hover {
       text-decoration: none;
-      color: #C2C908; }
+      color: #0275d8; }
 
 /*.ne-description p a{ font-size: .65em; }*/
 small {
@@ -205,7 +207,7 @@ small {
   transition: opacity 0.3s 0s, visibility 0s 0.3s; }
 
 .ne-top:hover {
-  color: #C2C908; }
+  color: #0275d8; }
 
 .ne-top.ne-fade-out,
 .ne-top.ne-is-visible,
@@ -260,7 +262,7 @@ footer a {
 .masthead-nav > li > a:hover,
 footer a:focus,
 footer a:hover {
-  color: #C2C908 !important;
+  color: #0275d8 !important;
   text-decoration: none; }
 
 .inner {

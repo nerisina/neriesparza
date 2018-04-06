@@ -58,7 +58,7 @@ h1 {
 
 .nav li {
   a {
-    color: #C2C908;
+    color: #0275d8;
 
     &:focus,
     &:hover {
@@ -89,6 +89,8 @@ h1 {
   text-align: left;
   img {
     width: 80%;
+    box-shadow: 0px 0px 2px 1px #aaa;
+    margin: 40px 10px;
   }
 }
 
@@ -193,7 +195,7 @@ h1 {
 
       &:focus,
       &:hover {
-        border-color: #C2C908;
+        border-color: #0275d8;
       }
     }
   }
@@ -232,7 +234,7 @@ h1 {
 
     &:hover {
       text-decoration: none;
-      color: #C2C908;
+      color: #0275d8;
     }
   }
 }
@@ -268,7 +270,7 @@ small {
 }
 
 .ne-top:hover {
-  color: #C2C908;
+  color: #0275d8;
 }
 
 .ne-top.ne-fade-out,
@@ -332,7 +334,7 @@ footer a {
 .masthead-nav > li > a:hover,
 footer a:focus,
 footer a:hover {
-  color: #C2C908 !important;
+  color: #0275d8 !important;
   text-decoration: none;
 }
 
