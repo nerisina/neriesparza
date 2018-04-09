@@ -13,34 +13,14 @@ body {
   font-weight: 400;
 }
 
-header.masthead.clearfix {
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
-  padding: 3% 10%;
-}
-
-.cover {
-  padding: 0 20px;
-
-  .btn-lg {
-    padding: 10px 20px;
-    font-weight: bold;
-  }
-}
-
-.ne-title,
 h1 {
   font-family: 'Abril Fatface', cursive;
-  font-size: 5rem;
+  font-size: 4rem;
   letter-spacing: 5px;
-  text-align: left;
+  text-align: center;
 }
 
-.ne-logo img {
-  vertical-align: bottom;
-  margin-right: 10px;
-}
+
 
 .ne-work-container {
   padding-top: 40px;
@@ -56,27 +36,34 @@ h1 {
   padding: 0;
 }
 
-.nav li {
-  a {
-    color: #C2C908;
+.ne-home {
+  background: rgba(245, 119, 134, 0.25);
+  color: #f57786;
 
-    &:focus,
-    &:hover {
-      background: none;
-      color: #f57786;
+  .ne-about {
+    p {
+      padding: 5% 10% 8%;
     }
   }
 }
 
-.cover p {
-  font-weight: 300;
-  font-size: 1em;
-  padding: 10px 0;
-  margin: 0 auto;
-  text-align: center;
-  line-height: 2.5;
-  width: 80%;
+nav ul {
+  list-style: none;
+  text-align: right;
+  li {
+    display: inline-block;
+    a {
+      color: #0275d8;
+
+      &:focus,
+      &:hover {
+        background: none;
+        color: #f57786;
+      }
+    }
+  }
 }
+
 
 .ne-vs-wrappe {
   section {
@@ -89,6 +76,7 @@ h1 {
   text-align: left;
   img {
     width: 80%;
+    margin: 40px 10px;
   }
 }
 
@@ -107,42 +95,12 @@ h1 {
   }
 }
 
-.site-wrapper {
-  display: table;
-  width: 100%;
-  height: 100%;
-  /* For at least Firefox */
-  min-height: 100%;
-}
 
-.site-wrapper-inner {
-  display: table-cell;
-  vertical-align: top;
-  background: rgba(255, 82, 82, 0.25);
-}
-
-.cover-container {
-  margin-right: auto;
-  margin-left: auto;
-  width: 80%;
-  line-height: 12px;
-}
-
-.masthead-nav {
-  li {
-    display: inline-block;
-
-    a {
-      font-size: 1.5em;
-      font-weight: bold;
-      border-bottom: 2px solid transparent;
-      color: #fff;
-    }
-  }
-}
 /* Work */
+
 .ne-work {
   padding-bottom: 100px;
+  background: #f7f79;
 }
 
 .ne-vs-header {
@@ -156,8 +114,7 @@ h1 {
   }
   a{
     color:#f57786;
-    &:hover
-    
+    &:hover{
     color:  #0275d8;
     }
   }
@@ -194,7 +151,7 @@ h1 {
 
       &:focus,
       &:hover {
-        border-color: #C2C908;
+        border-color: #0275d8;
       }
     }
   }
@@ -216,13 +173,12 @@ h1 {
 }
 
 .ne-description {
-  padding-top: 5rem;
+  padding-top: 2rem;
   color: #89867e;
   font-weight: lighter;
   text-align: left;
 
   h3 {
-    font-family: 'Abril Fatface', cursive;
     margin-bottom: 18px;
   }
 
@@ -233,11 +189,13 @@ h1 {
 
     &:hover {
       text-decoration: none;
-      color: #C2C908;
+      color: #0275d8;
     }
   }
 }
+
 /*.ne-description p a{ font-size: .65em; }*/
+
 small {
   font-size: 0.65em;
 }
@@ -251,7 +209,9 @@ small {
 .fa-child:before {
   margin-right: 5px;
 }
+
 /* Bottom Top */
+
 .ne-top {
   display: inline-block;
   position: fixed;
@@ -269,7 +229,7 @@ small {
 }
 
 .ne-top:hover {
-  color: #C2C908;
+  color: #0275d8;
 }
 
 .ne-top.ne-fade-out,
@@ -295,28 +255,27 @@ small {
   background-color: #e86256;
   opacity: 1;
 }
+
 /* Skills */
+
 .ne-skills {
   padding: 50px 0;
   background: #232325;
+  .container {
+    width: 100%;
+    height: 100%;
+    color: #8e898e;
+  }
+
+  h4 {
+    color: #f57786;
+    opacity: 0.6;
+    font-size: 15px;
+  }
 }
 
-.ne-skills .container {
-  width: 100%;
-  height: 100%;
-  color: #8e898e;
-}
-
-.ne-skills h1 {
-  color: #fff;
-  margin-top: 0;
-}
-
-.ne-skills h4 {
-  color: #f57786;
-  opacity: 0.6;
-}
 /* Footer */
+
 footer {
   background: #fff;
 }
@@ -333,7 +292,7 @@ footer a {
 .masthead-nav > li > a:hover,
 footer a:focus,
 footer a:hover {
-  color: #C2C908 !important;
+  color: #0275d8 !important;
   text-decoration: none;
 }
 
@@ -346,8 +305,11 @@ footer a:hover {
   color: #232325;
   font-size: 10px;
 }
+
 /* Media queries */
+
 @media (min-width: 992px) {}
+
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
@@ -370,6 +332,7 @@ footer a:hover {
   .mastfoot,
   .masthead {}
 }
+
 @media screen and (max-width: 72.875em) {
   .ne-vs-header,
   .ne-vs-wrapper {
@@ -384,6 +347,7 @@ footer a:hover {
     width: 160px;
   }
 }
+
 @media screen and (max-width: 45.25em) {
   .ne-vs-content h2 {
     margin: 0 0 1em;
@@ -403,6 +367,7 @@ footer a:hover {
     background-size: 100%;
   }
 }
+
 @media (min-width: 300px) and (max-width: 768px) {
   .site-wrapper {
     display: inherit;
