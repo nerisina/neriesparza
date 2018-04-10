@@ -31,7 +31,8 @@ h1 {
   background: rgba(245, 119, 134, 0.25);
   color: #f57786; }
   .ne-home .ne-about p {
-    padding: 5% 10% 8%; }
+    padding: 5% 10% 8%;
+    margin-bottom: 0px; }
 
 nav ul {
   list-style: none;
@@ -66,15 +67,16 @@ nav ul {
 /* Work */
 .ne-work {
   padding-bottom: 100px;
-  background: #f7f79; }
+  background: #f7f7f9; }
+  .ne-work h1 {
+    margin: 3rem 0;
+    color: #505050; }
 
 .ne-vs-header {
   padding: 2em;
   color: #505050;
   text-align: center;
   -webkit-backface-visibility: hidden; }
-  .ne-vs-header h1 {
-    margin-bottom: 3rem; }
   .ne-vs-header a {
     color: #f57786; }
     .ne-vs-header a:hover {
