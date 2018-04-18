@@ -74,10 +74,12 @@
           <section id="section-0" class="row ne-work-details">
             <div class="ne-vs-content">
 
-              <div class="ne-description">
+               <div class="ne-description">
                 <h3><a href="http://www.wheelbarrowsoftware.com/" class="font-so" target="_blank">Barnes & Noble</a></h3>
-                <p>Software to easy design plays for sport teams.</p>
-                <p>I was responsable to developed the website in HTML, CSS and Javascript/jQuery and mobile optimization in bootsrap and SASS.</p>
+                <p>Online bookstore for books, NOOK ebooks & magazines.</p>
+                <p>Website redesign based on an existing UI Kit guide</p>
+                <p>I did daily updates in the content via Endeca & Adobe CQ Experience Manager. I created CQ components & landing pages in HTML, CSS/SASS & JavaScript.</p>
+                <p>I worked on the migration of desktop micro sites like <a href="http://bn.com/h/cafe" target="_blank">Cafe</a> and <a href="https://www.barnesandnoble.com/h/putmeinthestory" target="_blank">Put Me In The Story</a> to mobile using the grid of Bootstrap framework.</p>
                 <p><i class="fa fa-anchor"></i><a href="http://www.bn.com/" target="_blank" class="font-so">Web Site</a></p>
               </div>
 
